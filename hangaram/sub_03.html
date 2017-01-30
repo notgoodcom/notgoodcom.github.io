@@ -1,0 +1,266 @@
+<!doctype html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8"/>
+	<title>한가람 미술관</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="mobile.css">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-2.1.0.min.js" ></script>
+	<script type="text/javascript" src="hangaram.js"></script>
+</head>
+<body>
+<div id="top_nav">
+<div id="top_menu">
+	<div id="top_menu_all">
+        <span class="top_menu_all_left">
+		<ul>
+			<li>예술의 전당</li>
+			<li>|</li>
+			<li>예술아카데미</li>
+			<li>|</li>
+			<li>예술의 전당 후원회</li>
+		</ul>
+		 <form action="#" method="post">
+            <select class="famiy">
+            <option value="familysite" selected>FAMILY SITE</option>
+            <option value="artmuseum">예술의 전당</option>
+            <option value="artacademy">예술아카데미</option>
+            <option value="artmuseumsupport">예술의 전당 후원회</option>
+            </select>
+         </form>
+		</span>
+        <span class="top_menu_all_right">
+            <form action="#" method="post">
+            <select class="lang">
+            <option value="korean" selected>KOREAN</option>
+            <option value="english">ENGLISH</option>
+            </select>
+            </form>
+        </span>
+    </div>
+</div>
+<div id="fix_menu">
+		<div class="fix_menu_wrap">
+				<div class="fix_menu_left"><a href="#"><i class="fa fa-bars" style="font-size:30px; position:relative;line-height:55px;"></i></a></div>
+				<div class="fix_menu_center"><p><a href="./index.html"><img src="./images/logo.png" alt="한가람미술관"></a></p></div>
+				<div class="fix_menu_right">
+					<div class="fix_search_nav">
+					<form action="/search" method="get" id="search">
+					<input type="text" name="search" placeholder="검색" size="40">
+					</form>
+				</div>
+				</div>
+		</div>
+</div>
+</div>
+	<div id="toggle_menu">
+		<ul>
+		<li><a href="index.html"><div><i class="fa fa-home" aria-hidden="true"></i> HOME</div></a>
+		<span class="close"><i class="fa fa-times-circle" aria-hidden="true"></i></span></li>
+		<li><img src="images/mobile_logo.png"/ alt="한가람미술관"></li>
+		<li><p class="m_sub1">EXHIBITION   +</p>
+			<ul class="m_sub_on1">
+			<li><a href="sub_01.html">현재 전시 - </a></li>
+			<li>이전 전시 - </li>
+			</ul>
+		</li>
+		<li><p class="m_sub2">ABOUT   +</p>
+			<ul class="m_sub_on2">
+			<li><a href="sub_02.html">한가람 미술관 - </a></li>
+			<li>한가람 디자인 미술관 - </li>
+			<li>서울 서예 박물관 - </li>
+			</ul>
+		</li>
+		<li><p class="m_sub3">VISIT   +</p>
+			<ul class="m_sub_on3">
+			<li><a href="sub_03.html">관람 안내 - </a></li>
+			<li>찾아 오는 길 - </li>
+			<li>편의시설 안내 - </li>
+			</ul>
+		</li>
+		<li><p class="m_sub4">NEWS   +</p>
+			<ul class="m_sub_on4">
+			<li><a href="sub_04.html">공지사항 - </a></li>
+			<li>F A Q - </li>
+			</ul>
+		</li>
+		<li>
+			<form action="/search" method="get" id="m_search">
+			<input type="text" name="search" placeholder="검색" size="40">
+			</form>
+		</li>
+		</ul>
+	</div>
+<div id="wrapper">
+<header><p class="logo"><a href="./index.html"><img src="./images/logo.png" alt="한가람미술관"></a></p></header>
+	<nav>
+	<div class="nav_all">
+		<div class="nav_left">
+            <ul class="menu_ul">
+            <li class="menu_li"><a href="./sub_01.html" class="menu_bt"><span>EXHIBITION</span><span>전시안내</span></a></li>
+            <li class="menu_li"><a href="./sub_02.html" class="menu_bt"><span>ABOUT</span><span>미술관소개</span></a></li>
+            <li class="menu_li"><a href="./sub_03.html" class="menu_bt"><span>VISIT</span><span>이용안내</span></a></li>
+            <li class="menu_li"><a href="./sub_04.html" class="menu_bt"><span>NEWS</span><span>미술관 소식</span></a></li>
+            </ul>
+        </div>
+		<div class="nav_right">
+            <div class="search_nav">
+                <form action="/search" method="get" id="search">
+                <input type="text" name="search" placeholder="검색" size="40">
+                </form>
+            </div>
+        </div>
+	</div>
+	</nav>
+<nav id="nav_all_menu">
+<ul>
+<li>
+	<ul>
+	<li><a href="./sub_01.html">- 현재 전시</a></li>
+	<li>- 이전 전시</li>
+	</ul>
+</li>
+<li>
+	<ul>
+	<li><a href="./sub_02.html">- 한가람미술관</a></li>
+	<li>- 한가람디자인미술관</li>
+	<li>- 서울서예박물관</li>
+	</ul>
+</li>
+<li>
+	<ul>
+	<li><a href="./sub_03.html">- 관람안내</a></li>
+	<li>- 찾아오는길</li>
+	<li>- 편의시설안내</li>
+	</ul>
+</li>
+<li>
+	<ul>
+	<li><a href="./sub_04.html">- 공지사항</a></li>
+	<li>- FAQ</li>
+	</ul>
+</li>
+<li>
+	<div>
+	</div>
+</li>
+</ul>
+</nav>
+	<section>
+<div id="contents">
+<div id="sub_content">
+<div class="sub_content_head">
+	<h2>이용 안내</h2>
+		<span>
+			<form action="#" method="post">
+				<select class="sub_menu_s">
+					<option value="visit_info" selected>관람 안내</option>
+					<option value="visit_map">오시는 길</option>
+					<option value="visit_convi">편의시설 안내</option>
+				</select>
+			</form>
+		</span>
+</div>
+<div class="sub_section_menu"></div>
+<div id="sub_section_02">
+	<div id="sub_subject">관람 안내</div>
+	<div class="sub_03">
+	<div class="table_div">
+		<table>
+		<tr>
+		<td class="table1">
+			<h4>관람시간</h4>
+			<p>- 한가람 미술관<br/>
+			- 한가람 디자인 미술관<br/>
+			- 서울 서예 박물관</p>
+		</td>
+		<td class="table2">
+			<p>하절기(3월~10월): 
+			오전 11시 - 오후 8시<br/>
+			동절기(11월~2월): 
+			오전 11시 - 오후 7시</p>
+			<p>*매주 월요일은 휴관합니다.</p>
+		</td>
+		</tr>
+		<tr>
+		<td class="table3">
+			<h4>현장매표소 
+			운영시간</h4>
+			<p>- 한가람 미술관<br/>
+			- 한가람 디자인 미술관<br/>
+			- 서울 서예 박물관</p>
+		</td>
+		<td class="table4">
+			<p>하절기(3월~10월): 
+			오전 10시 40분 - 오후 7시<br/>
+			동절기(11월~2월): 
+			오전 10시 40분 - 오후 6시</p>
+			<p>*관람종료 1시간 전까지 입장가능합니다.</p>
+		</td>
+		</tr>
+		</table>
+	</div>	
+		<div  class="table_div2">
+			<h3>도슨트 운영</h3>
+			<p>
+			<strong>월요일~금요일: 어린이 도슨트 오전11:00 / 일반도슨트 오후 12:00, 1:30, 3:30, 5:30</strong><br/><br/>
+			<mark>*어린이 도슨트는 12월27일부터 1월26일까지 방학기간에만 운영됩니다.</mark><br/>
+			*평일 총 4회 운영 / 주말.공휴일에는 운영되지 않으며, 전시장 상황에 따라 취소 또는 변경될 수 있습니다.<br/>&nbsp;쾌적한 관람 환경을 위해서 정규 도슨트 이외에 단체 설명은 엄격히 금지합니다.
+			<br/><br/>
+			*오디오가이드: 한가람미술관 1층 로비 / <b>대여비 3,000원</b></p>
+		</div>
+			<div  class="table_div2">
+			<h3>문화가 있는 날</h3>
+			<p>
+			- 매월 마지막 수요일은 문화가 있는 날! (11/30, 12/28, 1/25, 2/22)<br/>
+			- 기본가에서 50%할인 (중복할인불가, 현장매표소에서만 할인 가능)<br/>
+			- 할인적용 기간 : 행사 당일 18:00~20:00 (현장매표소에서 티켓구매시 적용가능)<br/>
+			- 야간연장개관 진행 : 오전 11시 ~ 오후 9시(관람종료 1시간 전까지 입장권 구매 가능)</p>
+		</div>
+	</div>
+</div>
+	</section>
+</div>
+<footer>
+	<div id="foot_top">
+		<div class="foot_t_left">
+			<ul>
+			<li>오시는 길</li>
+			<li>|</li>
+			<li>공지사항</li>
+			<li>|</li>
+			<li>세계음악분수</li>
+			</ul>
+		</div>
+		<div class="foot_t_right">
+			<ul>
+			<li>개인정보처리방침</li>
+			<li>|</li>
+			<li>사이트 이용약관</li>
+			</ul>
+		</div>
+	</div>
+	<hr class="footer_hr" align="center"/>
+		<div id="foot_bottom">
+		<div class="sns_icon">
+			<ul>
+			<li><button class="s_i_01"></button></li>
+			<li>|</li>
+			<li><button class="s_i_02"></button></li>
+			<li>|</li>
+			<li><button class="s_i_03"></button></li>
+			</ul>
+		</div>
+			<p>
+			<span>02.580.1300</span><br/>
+			서울시 서초구 남부순환로 2406 예술의 전당 / 사업자 등록번호 214-82-00264<br/>
+			webmaster@sac.or.kr / copyrightⓒ2016 SAC all rights reserved<br/>
+			</p>
+		</div>
+</footer>
+</body>
+</html>

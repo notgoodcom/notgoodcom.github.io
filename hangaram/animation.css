@@ -1,0 +1,56 @@
+/* ANIMATION */
+
+@keyframes slide1{
+	0%  { top:0px; }
+	4%  { top:0px; } 
+	16% { top:0px; opacity:1; z-index:0; } 
+	20% { top:250px; opacity:0; z-index:0; } 
+	60% { top:-250px; opacity:0; z-index:-1; }
+	92% { top:-250px; opacity:0; z-index:0; }
+	96% { top:-250px; opacity:0; }
+	100%{ top:0px; opacity:1; }
+}
+
+@keyframes slide2{
+	0%  { top:-250px; opacity:0; }
+	16% { top:-250px; opacity:0; }
+	20% { top:0px; opacity:1; }
+	24% { top:0px; opacity:1; } 
+	36% { top:0px; opacity:1; z-index:0; } 
+	40% { top:250px; opacity:0; z-index:0; }
+	80% { top:-250px; opacity:0; z-index:-1; } 
+	100%{ top:-250px; opacity:0; z-index:-1; }
+}
+
+@keyframes slide3{
+	0%  { top:-250px; opacity:0; }
+	36% { top:-250px; opacity:0; }
+	40% { top:0px; opacity:1; }
+	44% { top:0px; opacity:1; } 
+	56% { top:0px; opacity:1; } 
+	60% { top:250px; opacity:0; z-index:0; }
+	90% { top:-250px; opacity:0; z-index:-1; } 
+	100%{ top:-250px; opacity:0; z-index:-1; }
+}
+
+@keyframes slide4{
+	0%  { top:-250px; opacity:0; }
+	56% { top:-250px; opacity:0; }
+	60% { top:0px; opacity:1; }
+	64% { top:0px; opacity:1; }
+	76% { top:0px; opacity:1; z-index:0; }
+	80% { top:250px; opacity:0; z-index:0; }
+	95% { top:-250px; opacity:0; z-index:-1; }
+	100%{ top:-250px; opacity:0; z-index:-1; }
+}
+
+@keyframes slide5{
+	0%  { top:-250px; opacity:0; }
+	76% { top:-250px; opacity:0; }
+	80% { top:0px; opacity:1; }
+	84% { top:0px; opacity:1; }
+	96% { top:0px; opacity:1; z-index:0; }
+	100%{ top:250px; opacity:0; z-index:0; }
+}
+
+

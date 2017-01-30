@@ -1,0 +1,276 @@
+<!doctype html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8"/>
+	<title>한가람 미술관</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="mobile.css">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-2.1.0.min.js" ></script>
+	<script type="text/javascript" src="hangaram.js"></script>
+</head>
+<body>
+<div id="top_nav">
+<div id="top_menu">
+	<div id="top_menu_all">
+        <span class="top_menu_all_left">
+		<ul>
+			<li>예술의 전당</li>
+			<li>|</li>
+			<li>예술아카데미</li>
+			<li>|</li>
+			<li>예술의 전당 후원회</li>
+		</ul>
+		 <form action="#" method="post">
+            <select class="famiy">
+            <option value="familysite" selected>FAMILY SITE</option>
+            <option value="artmuseum">예술의 전당</option>
+            <option value="artacademy">예술아카데미</option>
+            <option value="artmuseumsupport">예술의 전당 후원회</option>
+            </select>
+         </form>
+		</span>
+        <span class="top_menu_all_right">
+            <form action="#" method="post">
+            <select class="lang">
+            <option value="korean" selected>KOREAN</option>
+            <option value="english">ENGLISH</option>
+            </select>
+            </form>
+        </span>
+    </div>
+</div>
+<div id="fix_menu">
+		<div class="fix_menu_wrap">
+				<div class="fix_menu_left"><a href="#"><i class="fa fa-bars" style="font-size:30px; position:relative;line-height:55px;"></i></a></div>
+				<div class="fix_menu_center"><p><a href="./index.html"><img src="./images/logo.png" alt="한가람미술관"></a></p></div>
+				<div class="fix_menu_right">
+					<div class="fix_search_nav">
+					<form action="/search" method="get" id="search">
+					<input type="text" name="search" placeholder="검색" size="40">
+					</form>
+				</div>
+				</div>
+		</div>
+</div>
+</div>
+	<div id="toggle_menu">
+		<ul>
+		<li><a href="index.html"><div><i class="fa fa-home" aria-hidden="true"></i> HOME</div></a>
+		<span class="close"><i class="fa fa-times-circle" aria-hidden="true"></i></span></li>
+		<li><img src="images/mobile_logo.png"/ alt="한가람미술관"></li>
+		<li><p class="m_sub1">EXHIBITION   +</p>
+			<ul class="m_sub_on1">
+			<li><a href="sub_01.html">현재 전시 - </a></li>
+			<li>이전 전시 - </li>
+			</ul>
+		</li>
+		<li><p class="m_sub2">ABOUT   +</p>
+			<ul class="m_sub_on2">
+			<li><a href="sub_02.html">한가람 미술관 - </a></li>
+			<li>한가람 디자인 미술관 - </li>
+			<li>서울 서예 박물관 - </li>
+			</ul>
+		</li>
+		<li><p class="m_sub3">VISIT   +</p>
+			<ul class="m_sub_on3">
+			<li><a href="sub_03.html">관람 안내 - </a></li>
+			<li>찾아 오는 길 - </li>
+			<li>편의시설 안내 - </li>
+			</ul>
+		</li>
+		<li><p class="m_sub4">NEWS   +</p>
+			<ul class="m_sub_on4">
+			<li><a href="sub_04.html">공지사항 - </a></li>
+			<li>F A Q - </li>
+			</ul>
+		</li>
+		<li>
+			<form action="/search" method="get" id="m_search">
+			<input type="text" name="search" placeholder="검색" size="40">
+			</form>
+		</li>
+		</ul>
+	</div>
+<div id="wrapper">
+<header><p class="logo"><a href="./index.html"><img src="./images/logo.png" alt="한가람미술관"></a></p></header>
+	<nav>
+	<div class="nav_all">
+		<div class="nav_left">
+            <ul class="menu_ul">
+            <li class="menu_li"><a href="./sub_01.html" class="menu_bt"><span>EXHIBITION</span><span>전시안내</span></a></li>
+            <li class="menu_li"><a href="./sub_02.html" class="menu_bt"><span>ABOUT</span><span>미술관소개</span></a></li>
+            <li class="menu_li"><a href="./sub_03.html" class="menu_bt"><span>VISIT</span><span>이용안내</span></a></li>
+            <li class="menu_li"><a href="./sub_04.html" class="menu_bt"><span>NEWS</span><span>미술관 소식</span></a></li>
+            </ul>
+        </div>
+		<div class="nav_right">
+            <div class="search_nav">
+                <form action="/search" method="get" id="search">
+                <input type="text" name="search" placeholder="검색" size="40">
+                </form>
+            </div>
+        </div>
+	</div>
+	</nav>
+<nav id="nav_all_menu">
+<ul>
+<li>
+	<ul>
+	<li><a href="./sub_01.html">- 현재 전시</a></li>
+	<li>- 이전 전시</li>
+	</ul>
+</li>
+<li>
+	<ul>
+	<li><a href="./sub_02.html">- 한가람미술관</a></li>
+	<li>- 한가람디자인미술관</li>
+	<li>- 서울서예박물관</li>
+	</ul>
+</li>
+<li>
+	<ul>
+	<li><a href="./sub_03.html">- 관람안내</a></li>
+	<li>- 찾아오는길</li>
+	<li>- 편의시설안내</li>
+	</ul>
+</li>
+<li>
+	<ul>
+	<li><a href="./sub_04.html">- 공지사항</a></li>
+	<li>- FAQ</li>
+	</ul>
+</li>
+<li>
+	<div>
+	</div>
+</li>
+</ul>
+</nav>
+	<section>
+<div id="contents">
+<div id="sub_content">
+<div class="sub_content_head">
+	<h2>현재 전시</h2>
+	<span>
+		<form action="#" method="post">
+			<select class="sub_menu_s">
+			<option value="ing_exhi" selected>현재 전시</option>
+			<option value="past_exhi">이전 전시</option>
+		</select>
+		</form>
+	</span>
+</div>
+<div id="sub_section">
+	<div id="sub_content_ex_slide">
+		<div class="sub_image_holder">
+			<ul>
+			<li class="slide_1"><div><h2>프랑스 국립 오르세미술관 展</h2><h3>프랑스 국립 오르세미술관 展</h3>
+				<span>기간/일자:  2016.10.29(토) - 2017.03.05(일)<br/>장소: 한가람미술관</span></div></li>
+			<li class="slide_2"><div><h2>알폰스 무하, <br/>모던 그래픽 디자인의 선구자 展</h2><h3>알폰스 무하, 모던 그래픽 디자인의 선구자 展</h3>
+			<span>기간/일자:  2016.12.03(토) - 2017.03.05(일)<br/>장소: 한가람미술관</span></div></li>
+			<li class="slide_3"><div><h2>아르데코의 여왕, <br/>타마라 렘피카 展</h2><h3>아르데코의 여왕, 타마라 렘피카 展</h3>
+				<span>기간/일자:  2016.12.10(토) - 2017.03.05(일)<br/>장소: 한가람미술관</span></div></li>
+			<li class="slide_4"><div><h2>현대건축의 아버지<br/> 르 코르뷔지에 展</h2><h3>현대건축의 아버지 르 코르뷔지에 展</h3>
+			<span>기간/일자:  2016.12.06(화) - 2017.03.26(일)<br/>장소: 한가람디자인미술관</span></div></li>
+			<li class="slide_5"><div><h2>위대한 낙서 <br/>The Great Graffiti 展</h2><h3>위대한 낙서 The Great Graffiti 展</h3>
+				<span>기간/일자:  2016.12.09(금) - 2017.02.26(일)<br/>장소: 서울서예박물관</span></div></li>
+			</ul>
+		</div>
+		<div class="sub_control_holder">
+		<p>
+			<input type="image" src="images/slide_menu_prev.png" class="slide_prev">
+			<input type="image" src="images/slide_menu_pause.png" class="slide_pause">
+			<input type="image" src="images/slide_menu_next.png" class="slide_next">
+		</p>
+		</div>	
+	</div>
+		<div id="sub_content_ex_list">
+			<ul>
+				<li><a href="#">
+				<p><img src="images/icon_02.png" alt="기획전시"></p>
+				<div><h2>프랑스 국립 오르세미술관 展</h2>
+				<span>기간/일자:  2016.10.29(토) - 2017.03.05(일) 
+				장소: 한가람미술관</span>
+				</div></a>
+				</li>
+			<li><a href="#">
+			<p></p>
+			<div><h2>알폰스 무하, 모던 그래픽 디자인의 선구자 展</h2>
+			<span>기간/일자:  2016.12.03(토) - 2017.03.05(일) 
+			장소: 한가람미술관</span>
+			</div></a>
+			</li>
+				<li><a href="#">
+				<p></p>
+				<div><h2>아르데코의 여왕, 타마라 렘피카 展</h2>
+				<span>기간/일자:  2016.12.10(토) - 2017.03.05(일) 
+				장소: 한가람미술관</span>
+				</div></a>
+				</li>
+			<li><a href="#">
+			<p></p>
+			<div><h2>현대건축의 아버지 르 코르뷔지에 展</h2>
+			<span>기간/일자:  2016.12.06(화) - 2017.03.26(일) 
+			장소: 한가람디자인미술관</span>
+			</div></a>
+			</li>
+				<li><a href="#">
+				<p><img src="images/icon_02.png" alt="기획전시"></p>
+				<div><h2>위대한 낙서 The Great Graffiti 展</h2>
+				<span>기간/일자:  2016.12.09(금) - 2017.02.26(일) 
+				장소: 서울서예박물관</span>
+				</div></a>
+			</li>
+			</ul>
+		</div>
+</div>
+</div>
+			<div id="sub_content_paging">
+			<p><a href="#">◀</a><a href="#">1</a><a href="#">2</a><a href="#">▶</a></p>
+			</div>
+</div>
+	</section>
+</div>
+<footer>
+	<div id="foot_top">
+		<div class="foot_t_left">
+			<ul>
+			<li>오시는 길</li>
+			<li>|</li>
+			<li>공지사항</li>
+			<li>|</li>
+			<li>세계음악분수</li>
+			</ul>
+		</div>
+		<div class="foot_t_right">
+			<ul>
+			<li>개인정보처리방침</li>
+			<li>|</li>
+			<li>사이트 이용약관</li>
+			</ul>
+		</div>
+	</div>
+	<hr class="footer_hr" align="center"/>
+		<div id="foot_bottom">
+		<div class="sns_icon">
+			<ul>
+			<li><button class="s_i_01"></button></li>
+			<li>|</li>
+			<li><button class="s_i_02"></button></li>
+			<li>|</li>
+			<li><button class="s_i_03"></button></li>
+			</ul>
+		</div>
+			<p>
+			<span>02.580.1300</span><br/>
+			서울시 서초구 남부순환로 2406 예술의 전당 / 사업자 등록번호 214-82-00264<br/>
+			webmaster@sac.or.kr / copyrightⓒ2016 SAC all rights reserved<br/>
+			</p>
+		</div>
+</footer>
+</body>
+</html>
