@@ -22,14 +22,14 @@ $(function(){
 	
 	mobile_menubt.click(function(){
 		mobile_menu.animate(
-		{left:0},1500);
+		{left:0},1000);
 	$('body').append('<div id="overlay_bg"></div>');
 	$('body').css('overflow','hidden');
 	});	
 	
 	mobile_close.click(function(){
 		mobile_menu.animate(
-		{left:-300},1500);
+		{left:-300},1000);
 	$('#overlay_bg').remove();
 	$('body').css('overflow','auto');
 	});	
