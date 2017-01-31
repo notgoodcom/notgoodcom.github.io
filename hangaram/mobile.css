@@ -129,7 +129,7 @@ section {width:100%; height:auto; margin:0;}
 
 .visit {margin:0; width:100%;}
 .visit .visit_bn{ margin:0; width:100%;}
-.visit .visit_bn span {float:left; width:20%; text-align:right; height:50px; font-size:25px; padding-right:2px;}
+.visit .visit_bn span {float:left; width:20%; text-align:center; height:50px; font-size:25px; }
 .visit .visit_b {float:left; width:80%; border-bottom:1px solid #aaa; height:50px;}
 .visit .visit_contents { background-image:url("images/hangaram.jpg"); background-size:300px; 
 						background-repeat:no-repeat; background-position: center right; width:100%; height:400px; position:relative;}
