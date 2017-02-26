@@ -18,6 +18,7 @@ $(function(){
 			$('.gnb li a').css('text-shadow','none');
 			$('.top_menu li a').css('color','#666');
 			$('nav').addClass('nav_on').removeClass('nav_off');	
+			$('nav').css('background','#fff')
 			$('#mobile_gnb').css('background','#fff');
 			$('#search').css('display','none');
 			$('#search_down').css('display','block');
@@ -30,6 +31,7 @@ $(function(){
 			$('.gnb li a').css('text-shadow','1px 1px 2px #555');
 			$('.top_menu li a').css('color','#ddd');
 			$('nav').removeClass('nav_on').addClass('nav_off');
+			$('nav').css('background','transparent')
 			$('#mobile_gnb').css('background','rgba(0,0,0,0.2)');
 			$('#search').css('display','block');
 			$('#search_down').css('display','none');
