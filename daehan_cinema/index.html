@@ -20,7 +20,9 @@
 
 <title>대한극장</title>
 <script type="text/javascript" src="http://code.jquery.com/jquery-2.1.0.min.js" ></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <link rel="stylesheet" type="text/css" href="css/style.css">
+<script type="text/javascript" src="js/main.js" ></script>
 </head>
 <body>
 	<nav id="mobile_gnb">
@@ -46,8 +48,12 @@
 		<li><a href="#">이벤트</a></li>
 		<li>
 			<form action="/search" method="get" id="search">
-				<input type="text" name="search" placeholder="검색" size="40">
-				<button type="submit">검색</button>
+				<input type="text" name="search" placeholder="검색" size="40" id="search_on">
+				<button type="submit" id="submit_on">검색</button> 
+			</form>
+			<form action="/search" method="get" id="search_down">
+				<input type="text" name="search" placeholder="검색" size="40" class="down_search">
+				<button type="submit" class="down_submit">검색</button> 
 			</form>
 		</li>
 		</ul>
