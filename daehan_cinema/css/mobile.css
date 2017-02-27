@@ -9,7 +9,7 @@
 	
 	#mobile_gnb .m_search{width:40%; hegiht:70px; line-height:70px; float:left; text-align:right;}
 		.m_search button{width:30px; height:30px; background: url(../images/search_icon_m.png) center center no-repeat;
-						background-size:25px; margin-right:20px;}
+						background-size:25px;}
 	#mobile_gnb .m_menu{width:10%; height:70px; line-height:70px; float:left; text-align:center;}
 		.m_menu button {width:35px; height:30px; background: url(../images/m_menu.png) center center no-repeat; 
 						background-size:30px;}
@@ -36,7 +36,7 @@
 		.content_top_notice_quick .notice{width:100%; height:30px; }
 		.content_top_notice_quick .notice a{line-height:30px;}
 		.content_top_notice_quick .notice b{line-height:30px;}
-		.content_top_notice_quick .notice a em{right:30px;}
+		.content_top_notice_quick .notice a em{right:30px; display:none;}
 		
 		.content_top_notice_quick .quick {display:none;}
 		
