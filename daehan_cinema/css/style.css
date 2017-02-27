@@ -238,7 +238,7 @@ footer{width:100%; height:auto; background:#363636; height:200px;}
 	
 	body{overflow-x:hidden;}
 	nav{display:none;}
-	#mobile_gnb{display:block; width:100%; position:fixed; height:70px; background:rgba(0,0,0,0.2);}
+	#mobile_gnb{display:block; width:100%; position:fixed; height:70px; background:rgba(0,0,0,0.2); z-index:9999;}
 	#mobile_gnb .m_logo{float:left; width:50%; height:70px; line-height:70px; position:relative;}
 		.m_logo img{width:100px; display:inline-block; left:20px;  position:absolute; top:10px;}
 	
