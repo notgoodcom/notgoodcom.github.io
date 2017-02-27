@@ -14,8 +14,7 @@ $(function(){
 		if(scroll_h>menu_on){
 			
 			
-			$('.gnb li a').css('color','#666');
-			$('.gnb li a').css('text-shadow','none');
+			$('.gnb li a').css('color','#666').css('text-shadow','none');
 			$('.top_menu li a').css('color','#666');
 			$('nav').addClass('nav_on').removeClass('nav_off');	
 			$('nav').css('background','#fff')
@@ -27,8 +26,7 @@ $(function(){
 			
 		}else if(scroll_h==0){
 			
-			$('.gnb li a').css('color','#eee');
-			$('.gnb li a').css('text-shadow','1px 1px 2px #555');
+			$('.gnb li a').css('color','#eee').css('text-shadow','1px 1px 2px #555');
 			$('.top_menu li a').css('color','#ddd');
 			$('nav').removeClass('nav_on').addClass('nav_off');
 			$('nav').css('background','transparent')
