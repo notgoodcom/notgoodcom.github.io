@@ -6,6 +6,9 @@
 
 body{font:15px/1.5 'Nanum Gothic', sans-serif; color:#333; position:relative;}
 
+
+#wrapper{width:100%; height:auto; position:relative;}
+
 .rating_all{background: url(../images/rating_mark.png) 0 0 no-repeat; display:inline-block; 
 			width:20px; height:20px; margin-left:5px;}
 .rating_12{background: url(../images/rating_mark.png) -20px 0 no-repeat; display:inline-block; 
