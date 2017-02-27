@@ -4,7 +4,7 @@
 @import url('https://fonts.googleapis.com/earlyaccess/nanumgothic.css'); 
 @import url('https://fonts.googleapis.com/css?family=Poiret+One');
 
-body{font:15px/1.5 'Nanum Gothic', sans-serif; color:#333;}
+body{font:15px/1.5 'Nanum Gothic', sans-serif; color:#333; position:relative;}
 
 .rating_all{background: url(../images/rating_mark.png) 0 0 no-repeat; display:inline-block; 
 			width:20px; height:20px; margin-left:5px;}
@@ -196,10 +196,14 @@ section{width:100%; }
 		
 		.content_bottom_bn li button{width:80%; height:120px;}
 		
-		.content_bottom_bn li:nth-of-type(1) button{margin-left:-10px; background: url(../images/bottom_bn1.png) center center no-repeat; background-size:130px;}
-		.content_bottom_bn li:nth-of-type(2) button{margin-left:-5px; background: url(../images/bottom_bn2.png) center center no-repeat; background-size:130px;}
-		.content_bottom_bn li:nth-of-type(3) button{margin-left:5px; background: url(../images/bottom_bn3.png) center center no-repeat; background-size:130px;}
-		.content_bottom_bn li:nth-of-type(4) button{margin-left:10px; background: url(../images/bottom_bn4.png) center center no-repeat; background-size:130px;}
+		.content_bottom_bn li:nth-of-type(1) button{margin-left:-10px; background: url(../images/bottom_bn1.png) center center no-repeat; 
+													background-size:100px;}
+		.content_bottom_bn li:nth-of-type(2) button{margin-left:-5px; background: url(../images/bottom_bn2.png) center center no-repeat; 
+													background-size:100px;}
+		.content_bottom_bn li:nth-of-type(3) button{margin-left:5px; background: url(../images/bottom_bn3.png) center center no-repeat; 
+													background-size:100px;}
+		.content_bottom_bn li:nth-of-type(4) button{margin-left:10px; background: url(../images/bottom_bn4.png) center center no-repeat; 
+													background-size:100px;}
 		
 	
 	
@@ -235,12 +239,12 @@ footer{width:100%; height:auto; background:#363636; height:200px;}
 	body{overflow-x:hidden;}
 	nav{display:none;}
 	#mobile_gnb{display:block; width:100%; position:fixed; height:70px; background:rgba(0,0,0,0.2);}
-	#mobile_gnb .m_logo{float:left; width:50%; height:70px; line-height:70px;}
-		.m_logo img{width:100px; display:inline-block; margin-left:20px; vertical-align:middle;}
+	#mobile_gnb .m_logo{float:left; width:50%; height:70px; line-height:70px; position:relative;}
+		.m_logo img{width:100px; display:inline-block; left:20px;  position:absolute; top:10px;}
 	
 	#mobile_gnb .m_search{width:40%; hegiht:70px; line-height:70px; float:left; text-align:right;}
 		.m_search button{width:30px; height:30px; background: url(../images/search_icon_m.png) center center no-repeat;
-						background-size:30px; margin-right:20px;}
+						background-size:25px; margin-right:20px;}
 	#mobile_gnb .m_menu{width:10%; height:70px; line-height:70px; float:left; text-align:center;}
 		.m_menu button {width:35px; height:30px; background: url(../images/m_menu.png) center center no-repeat; 
 						background-size:30px;}
