@@ -38,6 +38,24 @@ $(function(){
 			
 		}
 		menu_on = scroll_h; 
-	});
+	});	
+		
+});
+
+
+$(function(){
+
+	$('.m_menu_bt').click(function(){
+		
+		$('#m_toggle_menu').animate({right:'0'},700);
+		
+	});	
+
 	
+	$('#m_m_close').click(function(){
+		
+		$('#m_toggle_menu').animate({right:'-300px'},700);
+		
+	});	
+
 });
